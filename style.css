@@ -93,9 +93,7 @@ a {
     margin-top: 10px;
 }
 
-.header-image {
-    font-size: 18px;
-    color: #F1F1F2;
+.image-container {
     background-color: #6D747D;
     height: 214px;
     width: 400px;
@@ -103,4 +101,12 @@ a {
     justify-content: center;
     align-items: center;
     flex: 1;
+}
+
+.header-image {
+    font-size: 18px;
+    color: #F1F1F2;
+    flex-shrink: 0;
+    white-space: nowrap;
+    overflow: hidden;
 }
