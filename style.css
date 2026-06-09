@@ -82,15 +82,18 @@ a {
     font-weight: 900;
 }
 
-.button button {
-    background-color: #3882F6;
-    color: #F9FAF8;
+button {
     font-size: 18px;
     font-weight: bold;
     border: 0px;
     border-radius: 8px;
     padding: 5px 25px;
     margin-top: 10px;
+}
+
+.button button {
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
 
 .image-container {
@@ -173,6 +176,36 @@ a {
     width: 825px;
     justify-content: flex-end;
     font-weight: bold;
+    font-size: 18px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    border-radius: 8px;
+    padding: 40px 100px;
+    margin: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sign-up button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+}
+
+.call {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.call-secondary {
+    color: #F9FAF8;
     font-size: 18px;
 }
 
