@@ -121,6 +121,10 @@ button {
     margin: 40px 0;
 }
 
+.content {
+    flex-grow: 1;
+}
+
 .image {
     height: 175px;
     width: 175px;
@@ -209,3 +213,9 @@ button {
     font-size: 18px;
 }
 
+.footer {
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 40px;
+}
