@@ -110,3 +110,45 @@ a {
     white-space: nowrap;
     overflow: hidden;
 }
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 40px 0;
+}
+
+.image {
+    height: 175px;
+    width: 175px;
+    border: 4px solid #3b82f6;
+    border-radius: 8px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    flex-wrap: nowrap;
+}
+
+.info-text {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 115px;
+    margin-top: 5px;
+}
+
+.image-text {
+    color: #787f8a;
+    font-size: 18px;
+    width: 175px;
+    text-align: center;
+}
+
