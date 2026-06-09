@@ -152,3 +152,27 @@ a {
     text-align: center;
 }
 
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 115px 0;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    width: 825px;
+}
+
+.author-container {
+    display: flex;
+    width: 825px;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+}
+
